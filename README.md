@@ -27,9 +27,9 @@ It should include my top picks of my github projects as well as contact info
 | **Day**       | **Progress**                                                   |
 |---------------|----------------------------------------------------------------|
 | **Monday:**   |                                                                |
-| **Tuesday:**  |                                                                |
+| **Tuesday:**  | Set up project base                                            |
 | **Wednesday:**|                                                                |
 | **Thursday:** |                                                                |
-| **Friday:**   |                                                                |
+| **Friday:**   | Crate some css styles and comps, commit-msg has aesthetic idea |
 | **Saturday:** |                                                                |
 | **Sunday:**   |                                                                |
