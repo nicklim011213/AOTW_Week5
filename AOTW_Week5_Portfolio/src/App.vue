@@ -1,22 +1,33 @@
 <script setup lang="ts">
 import ProjectTile from './components/Project.vue'
 import './index.css'
+
+const Projects = ([
+  {Title: "Title1", Desc:"Desc1"},
+  {Title: "Title2", Desc:"Desc2"},
+  {Title: "Title3", Desc:"Desc3"},
+  ])
 </script>
 
 <template>
+  <div id="Container">
     <div id="TopBar"></div>
-    <h1> Current Projects:</h1>
+    <div id="Banner">
+      <h1> Current Projects:</h1>
+      <img src="./assets/LimGEDemo.gif">
+    </div>  
     <ul>
       <li>
-      <ProjectTile></ProjectTile>
+      <ProjectTile v-bind="Projects[0]"></ProjectTile>
       </li>
       <li>
-      <ProjectTile></ProjectTile>
+      <ProjectTile v-bind="Projects[1]"></ProjectTile>
       </li>
       <li>
-      <ProjectTile></ProjectTile>
+      <ProjectTile v-bind="Projects[2]"></ProjectTile>
       </li>
-    </ul>
+    </ul>  
+  </div>
 </template>
 
 <style scoped>
@@ -28,6 +39,10 @@ li
 ul
 {
   padding-left: 0%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
 
   li:nth-child(even)
   {
@@ -44,15 +59,39 @@ ul
 
 #TopBar
 {
-  width: 100vw;
-  height: 5vh;
+  width: 100%;
+  height: 2.5%;
   background-color: #00aeff;
 }
 
 h1
 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   text-align: center;
-  align-self: center;
-  margin: 2%;
+  padding-top: 5%;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+#Container
+{
+  height: 100%;
+  width: 100%;
+}
+
+#Banner
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22.5%;
 }
 </style>

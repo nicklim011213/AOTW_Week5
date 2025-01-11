@@ -1,5 +1,16 @@
+<script setup>
+
+defineProps(
+    {
+        Title: {type: String},
+        Desc: {type: String}    
+    }
+)
+</script>
+
 <template>
-    <h1 id="ProjectTitle"> ProjectTitle</h1>
+    <h1 id="ProjectTitle"> {{ Title }}</h1>
+    <p> {{ Desc }}</p>
 </template>
 
 <style scoped>
