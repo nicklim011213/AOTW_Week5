@@ -31,5 +31,5 @@ It should include my top picks of my github projects as well as contact info
 | **Wednesday:**|                                                                |
 | **Thursday:** | Create some css styles and comps, commit-msg has aesthetic idea|
 | **Friday:**   | Create color theme, add props, do some css layouts             |
-| **Saturday:** |                                                                |
+| **Saturday:** | Add placeholder project 1 use as a placeholder minor css change|
 | **Sunday:**   |                                                                |
