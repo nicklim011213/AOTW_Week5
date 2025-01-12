@@ -9,7 +9,8 @@ This is the end goal. Once the main end goal has been reached, I add stretch goa
 
 This week I have decided to make some changes to better fit my schedule. Now I can choose 
 optional days as my schedule allows and I must make 5 commits with only 1 counting per
-day. This should help free up my schedule.
+day. This should help free up my schedule. Initially I choose to make the weekends  
+to be optional but having 2 days of my choice is better for my schedule 
 
 ---
 
