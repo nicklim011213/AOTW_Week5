@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import ProjectTile from './components/Project.vue'
+import Project from './components/Project.vue'
 import './index.css'
 
 const Projects = ([
-  {Title: "Title1", Desc:"Desc1"},
-  {Title: "Title2", Desc:"Desc2"},
-  {Title: "Title3", Desc:"Desc3"},
+  {Title: "Floorspaces", Desc:"Floorspaces s a web app using Unity .Net servers and cloud staorge to draw save and render 3d spaces onto a lve website", ImgPath: "Floorspaces.gif"},
+  {Title: "AOTW", Desc:"AOTW or App of The Week is a reoccuring series on my github that has me create a new app every week such as a p2p chat, graphics engine, or even this very website", ImgPath: "Floorspaces.gif"},
+  {Title: "Title3", Desc:"Desc3", ImgPath: "Floorspaces.gif"},
   ])
 </script>
 
@@ -18,13 +18,13 @@ const Projects = ([
     </div>  
     <ul>
       <li>
-      <ProjectTile v-bind="Projects[0]"></ProjectTile>
+      <Project v-bind="Projects[0]"></Project>
       </li>
       <li>
-      <ProjectTile v-bind="Projects[1]"></ProjectTile>
+      <Project v-bind="Projects[1]"></Project>
       </li>
       <li>
-      <ProjectTile v-bind="Projects[2]"></ProjectTile>
+      <Project v-bind="Projects[2]"></Project>
       </li>
     </ul>  
   </div>
@@ -52,7 +52,7 @@ ul
 
   li:nth-child(odd)
   {
-    margin-left: 85%;
+    margin-left: 75%;
     margin-top: 10%;
   }
 }
