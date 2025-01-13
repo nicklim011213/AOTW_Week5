@@ -3,9 +3,9 @@ import Project from './components/Project.vue'
 import './index.css'
 
 const Projects = ([
-  {Title: "Floorspaces", Desc:"Floorspaces s a web app using Unity .Net servers and cloud staorge to draw save and render 3d spaces onto a lve website", ImgPath: "Floorspaces.gif"},
-  {Title: "AOTW", Desc:"AOTW or App of The Week is a reoccuring series on my github that has me create a new app every week such as a p2p chat, graphics engine, or even this very website", ImgPath: "Floorspaces.gif"},
-  {Title: "Title3", Desc:"Desc3", ImgPath: "Floorspaces.gif"},
+  {Title: "Floorspaces", Desc:"Floorspaces is a web app using Unity .Net servers and cloud staorge to draw save and render 3d spaces onto a lve website", ImgPath: "Floorspaces.gif"},
+  {Title: "AOTW", Desc:"AOTW or App of The Week is a reoccuring series on my github that has me create a new app every week such as a p2p chat, graphics engine, or even this very website", ImgPath: "AOTW_Week2.png"},
+  {Title: "C# Graphics Engine", Desc:"This project uses c# and SFML in order to simulate what a 3d view would look like given a 2d array as a map you can traverse. It uses custom renderers to read the array and draw the view", ImgPath: "2DProj.png"},
   ])
 </script>
 

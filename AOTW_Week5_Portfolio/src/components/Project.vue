@@ -32,8 +32,8 @@ p
 
 img
 {
-    width: 20vw;
-    height: 20vh;
+    width: 15vw;
+    height: 15vh;
 }
 
 #ProjectContiner
